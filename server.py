@@ -69,7 +69,8 @@ class Server(BaseHTTPRequestHandler):
             self.wfile.write("Hello World\nPaste url to pdf after /".encode('utf-8'))
 
 
-HOST_NAME = 'localhost'
+#HOST_NAME = 'localhost'
+HOST_NAME = "192.168.1.34"
 PORT_NUMBER = 80
 URL = f"http://{HOST_NAME}:{PORT_NUMBER}"
 
